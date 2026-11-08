@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EN Signature Décor</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+}
+header {
+  text-align: center;
+  padding: 28px 15px;
+  background: #080808;
+  border-bottom: 2px solid #c9a34a;
+}
+.logo {
+  color: #d6b45c;
+  font-size: 42px;
+  font-weight: bold;
+}
+header h1 { margin: 5px; letter-spacing: 3px; }
+header p { color: #d6b45c; letter-spacing: 3px; }
+nav {
+  text-align: center;
+  padding: 15px;
+  background: #1b1b1b;
+}
+nav a {
+  color: #d6b45c;
+  margin: 10px;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: linear-gradient(120deg,#151515,#493817);
+}
+.hero h2 { font-size: 38px; color: #e1bd68; }
+.hero p { font-size: 18px; }
+.btn {
+  display: inline-block;
+  background: #d6b45c;
+  color: #111;
+  padding: 14px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 8px;
+}
+section {
+  padding: 45px 20px;
+  text-align: center;
+}
+h2 { color: #d6b45c; }
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(190px,1fr));
+  gap: 18px;
+  max-width: 1000px;
+  margin: auto;
+}
+.service {
+  background: #222;
+  padding: 25px;
+  border: 1px solid #8f7133;
+  border-radius: 10px;
+}
+.service span { font-size: 35px; }
+.service h3 { color: #d6b45c; }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 15px;
+  max-width: 1000px;
+  margin: auto;
+}
+.gallery img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.contact { background: #1c1c1c; }
+footer {
+  text-align: center;
+  padding: 22px;
+  color: #d6b45c;
+  border-top: 1px solid #8f7133;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">EN</div>
+  <h1>SIGNATURE DÉCOR</h1>
+  <p>ELEGANCE IN EVERY DETAIL</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+  <h2>Making Every Occasion Beautiful</h2>
+  <p>We turn your dreams into beautiful memories.</p>
+  <a class="btn" href="#services">Explore Our Services</a>
+  <a class="btn" href="#contact">Book Us Today</a>
+</div>
+
+<section id="about">
+  <h2>Welcome to EN Signature Décor</h2>
+  <p>
+    We specialize in beautiful, elegant and creative decorations
+    that make every occasion unforgettable.
+    From weddings to birthdays and corporate events,
+    we bring your vision to life.
+  </p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service">
+      <span>💍</span>
+      <h3>Wedding Décor</h3>
+      <p>Beautiful wedding setups for your special day.</p>
+    </div>
+    <div class="service">
+      <span>🎂</span>
+      <h3>Birthday Décor</h3>
+      <p>Creative and colourful birthday celebrations.</p>
+    </div>
+    <div class="service">
+      <span>🍼</span>
+      <h3>Baby Showers</h3>
+      <p>Elegant baby shower decorations.</p>
+    </div>
+    <div class="service">
+      <span>🏢</span>
+      <h3>Corporate Events</h3>
+      <p>Professional event decoration and styling.</p>
+    </div>
+    <div class="service">
+      <span>🏡</span>
+      <h3>Interior Décor</h3>
+      <p>Beautiful interior spaces with a luxury touch.</p>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Our Gallery</h2>
+  <p>Beautiful moments deserve beautiful decorations.</p>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600" alt="Wedding décor">
+    <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600" alt="Birthday celebration">
+    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600" alt="Event styling">
+  </div>
+  <p>Replace these sample photos with your own decoration projects.</p>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Book EN Signature Décor</h2>
+  <p>Let's make your next event unforgettable!</p>
+  <p><strong>Our Locations:</strong> Kiambu, Thika & Ruaka</p>
+  <p><strong>Call:</strong> 0724349481 / 0726861891</p>
+
+  <a class="btn" href="https://wa.me/254724349481?text=Hello%20EN%20Signature%20Decor%2C%20I%20would%20like%20to%20make%20a%20booking.">
+    WhatsApp 1
+  </a>
+  <a class="btn" href="https://wa.me/254726861891?text=Hello%20EN%20Signature%20Decor%2C%20I%20would%20like%20to%20make%20a%20booking.">
+    WhatsApp 2
+  </a>
+</section>
+
+<footer>
+  <p>EN SIGNATURE DÉCOR</p>
+  <p>Elegance in Every Detail.</p>
+  <p>© 2026 EN Signature Décor. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
